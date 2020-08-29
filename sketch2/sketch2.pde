@@ -1,9 +1,8 @@
 String sentence = " Patrick is studying Creative Technology and Design at CU ";
-char letters[];
+char[] letters = sentence.toCharArray();
 void setup() {
   size(800, 800);
   background(#FF5A36);
-  letters = sentence.toCharArray();
   PFont font = createFont("Roboto-Regular",32);
   textFont(font);
 }
