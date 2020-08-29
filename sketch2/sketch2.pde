@@ -1,5 +1,5 @@
 String sentence = " Patrick is studying Creative Technology and Design at CU ";
-char[] letters = sentence.toCharArray();
+char letters[] = sentence.toCharArray();
 void setup() {
   size(800, 800);
   background(#FF5A36);
