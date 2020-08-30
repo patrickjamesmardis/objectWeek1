@@ -23,12 +23,12 @@ void keyPressed() {
     x -= 5;
     break;
   case 38: 
-    y -= 5;
     //up
+    y -= 5;
     break;
   case 39: 
-    x += 5;
     //right
+    x += 5;
     break;
   case 40: 
     //down
