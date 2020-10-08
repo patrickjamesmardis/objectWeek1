@@ -1,7 +1,7 @@
 # Week 1 | Exploring Processing
 **[process.patrickjam.es/](https://process.patrickjam.es/2020/08/28/week-1-exploring-processing/)**
 
-## [Sketch 1](/sketch1): Following mouse movement
+## [Sketch 1](/sketch1/sketch1.pde): Following mouse movement
 This week I was excited to explore Processing since I’ve done a lot of work with p5. I began by orienting myself with the basics. Although I had no previous experience with Java, this came pretty easily since the p5 functions are just a translation to JavaScript.
 
 For my first sketch, I made basic circles that follow the mouse. I noticed the pmouseX and pmouseY variables and wanted to see if they could be used to space the circles out a bit. I used the following line of code to get the distance between the previous mouse position and the current mouse position.
@@ -37,7 +37,7 @@ void draw() {
 ![sketch1 gif](/documentationAssets/sketch1_1.gif)
 ![sketch1 gif](/documentationAssets/sketch1_2.gif)
 
-## [Sketch 2](/sketch2): Following mouse movement with text output
+## [Sketch 2](/sketch2/sketch2.pde): Following mouse movement with text output
 
 For my next sketch, I continued to work with mouse movement as the input, but I wanted to explore text as an output. I’ve accomplished something similar in p5 so I wanted to be able to compare the JavaScript functions I used to Java.
 
@@ -67,7 +67,7 @@ void draw() {
 
 ![sketch2 gif](/documentationAssets/sketch2_1.gif)
 
-## [Sketch 3](/sketch3): Keyboard input
+## [Sketch 3](/sketch3/sketch3.pde): Keyboard input
 
 Finally, I wanted to explore keyboard input. For this sketch, I placed a rectangle on the canvas. I used four global variables: x, y, w, and h, each with 100 as the initial value. I used the keyPressed function with a switch statement inside to give commands to specific keys. The space bar increases w and h by 5. The left arrow decreases x by 5 while the right increases x by 5. The up arrow decreases y by 5 and down increases y by 5. Before adding this switch statement, I used the print function to print the keyCode for each key to the console.
 
